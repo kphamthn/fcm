@@ -8,7 +8,7 @@ Basic idea:
 - Eachtime an user does something, the tokens of the respective users will be call and a request will be made using FCM API.
 - The data message is displayed using [Firebase events](https://firebase.google.com/docs/cloud-messaging/js/receive). When the app is in the background, I use the [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) to display received messages.
 
-The database is at this URL https://adh.rapidnet.de:6984/fcm-test. I have created a small database (fcm-test) for testing purposes.
+The database is at this URL: https://adh.rapidnet.de:6984/fcm-test. I have created a small database (fcm-test) for testing purposes.
 
 I used my PHP Middleware from last time to trigger and control message flows. That can also be done with go (or some other languages).
 
